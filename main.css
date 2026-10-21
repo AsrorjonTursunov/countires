@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  color: #111517;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+/* Umumiy konteyner (eni va markazlash uchun) */
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header qismi */
+header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.hero-text {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111517;
+}
+
+/* Main qismi */
+
+.search {
+  padding: 48px 0;
+}
+
+.input-search {
+  width: 480px;
+  height: 56px;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.card {
+  width: 264px;
+  background: #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 14px 2px rgba(0, 0, 0, 0.05);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 24px;
+}
+
+.info h2 {
+  margin: 0 0 16px 0;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.info p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.info b {
+  font-weight: 600;
+}
