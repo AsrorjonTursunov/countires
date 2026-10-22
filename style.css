@@ -1,15 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
 
+:root {
+  --primary-color: white;
+  --secondary-color: black;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Nunito Sans", sans-serif;
 }
+.dark-mode {
+  --primary-color: #202c37;
+  --secondary-color: white;
+}
 
 body {
-  background-color: #fafafa;
-  color: #111517;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 a {
@@ -27,9 +35,9 @@ li {
   margin: 0 auto;
   padding: 0 20px;
 }
-/* header */
+
 header {
-  background-color: #ffffff;
+  background-color: var(--primary-color);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
@@ -54,20 +62,46 @@ header {
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
-  color: #111517;
+  color: var(--secondary-color);
 }
 
 .search {
   padding: 48px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: var();
+  color: var(--primary-color);
 }
 
 .input-search {
   width: 480px;
   height: 56px;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+
+  border: none;
 }
+.input-search.placeholder {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.filter-regions {
+  display: flex;
+  width: 200px;
+  height: 56px;
+  padding: 15px 0;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+}
+
 .wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 40px;
 
   margin: 0 auto;
@@ -76,10 +110,10 @@ header {
 
 .card {
   width: 264px;
-  background: #ffffff;
+  background: var(--primary-color);
+  color: var(--secondary-color);
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 0 14px 2px rgba(0, 0, 0, 0.05);
 }
 
 .card img {

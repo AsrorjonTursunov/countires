@@ -1,0 +1,58 @@
+export const davlatlar = [
+  {
+    rasm: "./images/flag-germany.svg",
+    nomi: "Germaniya",
+    aholisi: "81,770,900",
+    qitasi: "Yevropa",
+    poytaxti: "Berlin",
+  },
+  {
+    rasm: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3HleZj9Bza8idnJt5EMivSKNyF7IfDFmjeC9YraH-yA&s=10",
+    nomi: "United States of America",
+    aholisi: "323,497,000",
+    qitasi: "America",
+    poytaxti: "Washinton,D.C.",
+  },
+  {
+    rasm: "https://thumb.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/250px-Flag_of_Brazil.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    nomi: "Brazil",
+    aholisi: "206,135,893",
+    qitasi: "America",
+    poytaxti: "Brasila",
+  },
+  {
+    rasm: "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    nomi: "Iceland",
+    aholisi: "334,300",
+    qitasi: "Europe",
+    poytaxti: "Reykjavik",
+  },
+  {
+    rasm: "https://cdn.britannica.com/40/5340-004-B25ED5CF/Flag-Afghanistan.jpg",
+    nomi: "Avganistan",
+    aholisi: "27,675,145",
+    qitasi: "Asia",
+    poytaxti: "Kabul",
+  },
+  {
+    rasm: "https://upload.wikimedia.org/wikipedia/commons/5/52/Flag_of_%C3%85land.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+    nomi: "Aland Islands",
+    aholisi: "28,875",
+    qitasi: "Europe",
+    poytaxti: "Mariehamn",
+  },
+  {
+    rasm: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/250px-Flag_of_Albania.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    nomi: "Albania",
+    aholisi: "2,286,000",
+    qitasi: "Europe",
+    poytaxti: "Tirana",
+  },
+  {
+    rasm: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQL9MngNI-rIJvGXrCUwQvdjfbwtCG1NqEjYzMRXmcHw&s=10",
+    nomi: "Algeria",
+    aholisi: "40,400,000",
+    qitasi: "Africa",
+    poytaxti: "Algerias",
+  },
+];
