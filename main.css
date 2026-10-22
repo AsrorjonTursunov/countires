@@ -21,7 +21,6 @@ li {
   list-style: none;
 }
 
-/* Umumiy konteyner (eni va markazlash uchun) */
 .container {
   max-width: 1280px;
   width: 100%;
@@ -29,7 +28,6 @@ li {
   padding: 0 20px;
 }
 
-/* Header qismi */
 header {
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
