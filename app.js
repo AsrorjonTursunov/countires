@@ -1,15 +1,15 @@
-const search = document.querySelector("#search");
-const countires = document.querySelector(".info");
-const form = document.querySelector("#form");
-console.log(countires);
+const searchEl = document.querySelector("#search");
+const countiresEl = document.querySelector(".info");
+const formEl = document.querySelector("#form");
+console.log(countiresEl);
 
 // console.log(search);
-search.addEventListener("search", () => {
-  const natija = Array.from(countires).filter((d) =>
-    d.textContent.includes(search.value),
+searchEl.addEventListener("search", () => {
+  const natija = Array.form(countiresEl).filter((d) =>
+    d.textContent.includes(searchEl.value),
   );
 
-  countires.forEach((d) => {
+  countiresEl.forEach((d) => {
     d.style.display = natija.includes(d) ? "block" : "none";
   });
 });
